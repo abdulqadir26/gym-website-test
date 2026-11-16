@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+ body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(255, 255, 255)
+ }
+
+.container {
+    width: min(90%, 1110px);
+    margin-inline: auto;
+}
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 111;
+}
+.menu {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center; 
+    cursor: pointer;
+}
+.menu-link {
+    display: flex;
+    margin-left: 14rem;
+    gap: 2.5rem;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 40px;
+    color: #232d39;
+}
+.menu-link li {
+    list-style: none;
+}
+.menu-link li a {
+    text-decoration: none;
+    color: #232d39;
+    transition: 0.3s;
+}
+
+.menu-link li a:hover {
+    color: #f76f57;
+}
+span {
+    color: #ed563b;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 750;
+    font-style: normal;
+    color: #232d39;
+}
+.headerbtn {
+    background-color: #ed563b;
+    color: white;
+    padding: 0.85rem;
+    border: none;
+    width: 5.2rem;
+    text-transform: uppercase;
+}
+.headerbtn:hover {
+    color: #ed563b;
+    background-color: #f17e6a;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HERO SECTION */
+.btn {
+    background-color: #ed563b;
+    color: white;
+    padding: 0.4rem;
+    border: none;
+    width: 12rem;
+    text-transform: uppercase;
+    /* height: 3rem; */
+    font-size: 0.9rem;
+}
+.btn:hover {
+    color: #ed563b;
+    background-color: #f17e6a;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background:
+        linear-gradient(rgba(35, 45, 57, 0.75),
+                        rgba(35, 45, 57, 0.75)),
+        url("https://media.istockphoto.com/id/2224401666/photo/adult-fitness-class.webp?a=1&b=1&s=612x612&w=0&k=20&c=G6N-M6a1ZO6B5TZlBEStVGcMDbkdRNaNE2uJLf1052I=");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: white;
+    
+}
+
+.hero-content h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.hero-content h2 {
+    font-size: 5.3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 span {
+    color: #ed563b;
+}
+
+.hero-content button {
+    background: #ed563b;
+    color: white;
+    border: none;
+    padding: 18px 25px;
+    cursor: pointer;
+}
